@@ -14,8 +14,8 @@ other way: this library has **no dependency on the Ruby runtime**.
 
 !!! success "Status: pure-Go, CGO=0, differential-tested"
     A faithful pure-Go port of Ruby's `chronic`, validated against reference Ruby, at 100%
-    coverage, `gofmt` + `go vet` clean, CI green across the six 64-bit Go targets
-    and three OSes.
+    coverage, `gofmt` + `go vet` clean, CI green across the six 64-bit Go targets,
+    the 32-bit `386` and `arm` (since v0.1.0) and three OSes.
 
 ## Install
 
